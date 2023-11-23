@@ -1,4 +1,5 @@
-allennlp[all] @ git+https://github.com/allenai/allennlp.git@main
+# allennlp[all] @ git+https://github.com/allenai/allennlp.git@main
+allennlp[all] @ git+hhttps://github.com/elaine0619/allennlp-1@main
 
 torch>=1.13.1
 
