@@ -1,5 +1,5 @@
 # allennlp[all] @ git+https://github.com/allenai/allennlp.git@main
-allennlp[all] @ git+hhttps://github.com/elaine0619/allennlp-1@main#egg=allennlp==2.10.1
+allennlp-1[all] @ git+hhttps://github.com/elaine0619/allennlp-1@main#egg=allennlp-1==2.10.1
 
 torch>=1.13.1
 
