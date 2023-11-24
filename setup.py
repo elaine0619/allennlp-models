@@ -61,12 +61,15 @@ with open("requirements.txt") as requirements_file:
 
     assert len(allennlp_requirements) == 1
     allennlp_override = os.environ.get("ALLENNLP_VERSION_OVERRIDE")
+    
     if allennlp_override is not None:
         if len(allennlp_override) > 0:
             allennlp_requirements = [allennlp_override]
         else:
             allennlp_requirements = []
-
+    
+    # For testing
+    allennlp_requirements = []
     install_requirements.extend(allennlp_requirements)
     install_requirements = [fix_url_dependencies(req) for req in install_requirements]
 
