@@ -87,7 +87,6 @@ setup(
         "Topic :: Scientific/Engineering :: Artificial Intelligence",
     ],
     keywords="allennlp NLP deep learning machine reading semantic parsing parsers",
-    """url="https://github.com/allenai/allennlp-models","""
     url="https://github.com/elaine0619/allennlp-models/",
     author="Allen Institute for Artificial Intelligence",
     author_email="allennlp@allenai.org",
