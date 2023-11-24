@@ -69,7 +69,7 @@ with open("requirements.txt") as requirements_file:
             allennlp_requirements = []
     
     # For testing
-    allennlp_requirements = []
+    # allennlp_requirements = []
     install_requirements.extend(allennlp_requirements)
     install_requirements = [fix_url_dependencies(req) for req in install_requirements]
 
